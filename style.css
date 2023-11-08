@@ -1,0 +1,74 @@
+.dice {
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+    border: 5px black solid;
+    border-radius: 25px;
+    width: 320px;
+    height: 320px;
+    gap: 10px
+}
+
+aside {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: black;
+    justify-self: center;
+}
+
+.dots-1 {
+    display: none;
+}
+
+.dots-2 {
+    display: none;
+}
+.dots-3 {
+    display: none;
+}
+.dots-4 {
+    display: none;
+}
+.dots-5 {
+    display: none;
+}
+.dots-6 {
+    display: none;
+}
+
+
+.dot-1 {
+    grid-area: 2/2/3/3;
+}
+
+.dot-2 {
+    grid-area: 2/3/3/4;
+}
+
+.dot-3 {
+    grid-area: 2/4/3/5;
+}
+
+.dot-4 {
+    grid-area: 3/2/4/3;
+}
+
+.dot-5 {
+    grid-area: 3/3/4/4;
+}
+
+.dot-6 {
+    grid-area: 3/4/5/5;
+}
+
+.dot-7 {
+    grid-area: 4/2/5/3;
+}
+
+.dot-8 {
+    grid-area: 4/3/5/4;
+}
+
+.dot-9 {
+    grid-area: 4/4/5/5;
+}
